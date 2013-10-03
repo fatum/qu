@@ -14,6 +14,6 @@ Gem::Specification.new do |s|
   s.files         = `git ls-files -- lib | grep rails`.split("\n")
   s.require_paths = ["lib"]
 
-  s.add_dependency 'rails', '~>3.2'
+  s.add_dependency 'rails'
   s.add_dependency 'qu', Qu::VERSION
 end
